@@ -17,7 +17,7 @@ jobs:
       - name: trigger the automated test in another repo
         uses: peter-evans/repository-dispatch@v3
         with:
-          token: '${{ secrets.PAT_TOKEN }}'
+          token: '${{ secrets.PAT }}'
           repository: Aishasha527/test_central_githut_action
           event-type: Integration-with-Automation
       - name: my-step
