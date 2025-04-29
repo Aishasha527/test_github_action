@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1da19945-8185-4872-bc2f-1de804d84f6c" name="Changes" comment="use secret">
+    <list default="true" id="1da19945-8185-4872-bc2f-1de804d84f6c" name="Changes" comment="test dispatch">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -208,7 +208,7 @@
       <workItem from="1745809298769" duration="824000" />
       <workItem from="1745893676883" duration="134000" />
       <workItem from="1745893876592" duration="499000" />
-      <workItem from="1745895204454" duration="10766000" />
+      <workItem from="1745895204454" duration="13518000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -266,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745907555005</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test dispatch">
+      <option name="closed" value="true" />
+      <created>1745913119696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745913119696</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +311,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="subscriber" />
     <MESSAGE value="use secret" />
-    <option name="LAST_COMMIT_MESSAGE" value="use secret" />
+    <MESSAGE value="test dispatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="test dispatch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
