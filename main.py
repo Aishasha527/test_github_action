@@ -34,6 +34,7 @@ def connect_mqtt():
     client.username_pw_set(USERNAME, PASSWORD)
     client.on_connect = on_connect
     client.connect(BROKER, PORT)
+
     return client
 
 
