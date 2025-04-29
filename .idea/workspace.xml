@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1da19945-8185-4872-bc2f-1de804d84f6c" name="Changes" comment="subscriber">
+    <list default="true" id="1da19945-8185-4872-bc2f-1de804d84f6c" name="Changes" comment="use secret">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscriber.py" beforeDir="false" afterPath="$PROJECT_DIR$/subscriber.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +208,7 @@
       <workItem from="1745809298769" duration="824000" />
       <workItem from="1745893676883" duration="134000" />
       <workItem from="1745893876592" duration="499000" />
-      <workItem from="1745895204454" duration="8379000" />
+      <workItem from="1745895204454" duration="10766000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -260,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745906355138</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="use secret">
+      <option name="closed" value="true" />
+      <created>1745907555005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745907555005</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +302,8 @@
     <MESSAGE value="upload cert" />
     <MESSAGE value="test" />
     <MESSAGE value="subscriber" />
-    <option name="LAST_COMMIT_MESSAGE" value="subscriber" />
+    <MESSAGE value="use secret" />
+    <option name="LAST_COMMIT_MESSAGE" value="use secret" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
