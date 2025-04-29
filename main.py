@@ -1,16 +1,17 @@
 import logging
 import random
 import time
+import os
 
 from paho.mqtt import client as mqtt_client
 
 BROKER = 'o0e292ed.ala.cn-hangzhou.emqxsl.cn'
 PORT = 8883
-TOPIC = "testtopicaishasha"
+TOPIC = "test_topic_climate_on"
 # generate client ID with pub prefix randomly
 CLIENT_ID = f'python-mqtt-tls-pub-sub-{random.randint(0, 1000)}'
-USERNAME = 'emqx_online_test_f8fa40d7'
-PASSWORD = '0c]0f_6f93edJ38>e03E94c5700Z9M9R'
+USERNAME = os.environ['USERNAME']
+PASSWORD = os.environ.get('PASSWORD')
 
 
 
