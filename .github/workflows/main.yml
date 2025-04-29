@@ -9,7 +9,6 @@ on:
   push:
     branches:
       - '*'
-run-name: ${{ github.actor }} is testing out GitHub Actions  🚀
 
 jobs:
   trigger:
@@ -22,7 +21,7 @@ jobs:
           repository: username/target repository name
           event-type: Integration-with-Automation
       - name: my-step
-        run: 'echo ${{ github.actor }} Hello !'
+        run: 'echo Hello !'
 #jobs:
 #  build-and-test:
 #    runs-on: ubuntu-latest
