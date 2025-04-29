@@ -75,6 +75,8 @@ def publish(client):
         else:
             print(f"Failed to send message to topic {TOPIC}")
         msg_count += 1
+        if msg_count == 3:
+            break
 
 
 def run():
